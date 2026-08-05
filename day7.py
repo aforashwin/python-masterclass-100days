@@ -114,7 +114,7 @@ while not game_over:
             display += "_"
     print(display)
 
-    if guess not in correct_letter:
+    if guess not in choosen_word:
         lives -= 1
         if lives == 0:
             game_over = True
